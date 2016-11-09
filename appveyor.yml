@@ -3,6 +3,6 @@ install:
   - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 
 test_script:
-  - mvn test
+  - mvn test -B
 
 build: off
