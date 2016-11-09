@@ -1,5 +1,6 @@
 install:
   - cmd: java -version
+  - mvn clean install
 
 test_script:
   - mvn test
