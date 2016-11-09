@@ -1,6 +1,6 @@
 install:
   - cmd: java -version
-  - mvn clean install
+  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 
 test_script:
   - mvn test
