@@ -28,8 +28,7 @@
         <module>motan-transport-netty</module>
         <module>motan-demo</module>
         <module>motan-registry-consul</module>
-        <!-- try build without zookeeper -->
-        <!-- <module>motan-registry-zookeeper</module> -->
+        <module>motan-registry-zookeeper</module>
         <module>motan-benchmark</module>
         <module>motan-extension</module>
     </modules>
